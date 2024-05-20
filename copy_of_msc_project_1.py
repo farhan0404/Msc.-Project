@@ -22,10 +22,8 @@ from sklearn.pipeline import Pipeline
 from yellowbrick.regressor import prediction_error, residuals_plot
 from sklearn.ensemble import GradientBoostingRegressor
 
-#Import the dataset
-from google.colab import drive
-drive.mount('/content/drive')
-url = 'https://drive.google.com/uc?id=1LvVZ1QeDC1PfsSEP7ytxDUQhKRjgIUis'
+
+url = 'https://github.com/farhan0404/Msc.-Project/blob/main/Motor%20vehicle%20insurance%20data(processed.csv'
 data = pd.read_csv(url)
 data.head()
 

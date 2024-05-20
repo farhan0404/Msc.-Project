@@ -23,9 +23,9 @@ from yellowbrick.regressor import prediction_error, residuals_plot
 from sklearn.ensemble import GradientBoostingRegressor
 
 
-url = 'https://github.com/farhan0404/Msc.-Project/blob/main/Motor%20vehicle%20insurance%20data(processed.csv'
+url = 'https://raw.githubusercontent.com/farhan0404/Msc.-Project/main/Motor%20vehicle%20insurance%20data(processed.csv'
 data = pd.read_csv(url)
-data.head()
+print(data.head())
 
 """DATASET TRANSFORMATION PROCESS"""
 
